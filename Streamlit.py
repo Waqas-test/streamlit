@@ -49,7 +49,7 @@ city = st.sidebar.multiselect(
 
 
 
-df_selection = df.query("region == @city & Date >= @start_date & Date <= @end_date")
+df_selection = df.query("region == @city & Date >= @start_date & Date <= @end_date & type == @Type")
 
 col1, col2, col3, col4 = st.columns(4)
 
