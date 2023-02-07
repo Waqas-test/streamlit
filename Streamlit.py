@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # In[6]:
-
+pip install plotly-express
 
 import pandas as pd
 import numpy as np
