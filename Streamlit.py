@@ -7,7 +7,7 @@
 import pandas as pd
 import numpy as np
 import streamlit as st
-import plotly.js as px
+import plotly.express as px
 
 
 # In[7]:
