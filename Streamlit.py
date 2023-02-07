@@ -7,7 +7,7 @@
 import pandas as pd
 import numpy as np
 import streamlit as st
-import plotly.express as px
+#import plotly.express as px
 
 
 # In[7]:
@@ -69,7 +69,7 @@ with col2:
    st.header("Total Bags")
    st.subheader(int(df_selection["Total Bags"].sum()))
  
-fig = px.bar(data_frame=chartdf, x=chartdf.index, y=chartdf["AveragePrice"]) 
-fig.update_xaxes(type='category')  
-st.plotly_chart(fig, use_container_width=True)
-st.dataframe(chartdf)
+#fig = px.bar(data_frame=chartdf, x=chartdf.index, y=chartdf["AveragePrice"]) 
+#fig.update_xaxes(type='category')  
+#st.plotly_chart(fig, use_container_width=True)
+st.dataframe(df_selection)
